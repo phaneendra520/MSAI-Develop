@@ -1,0 +1,4 @@
+azure-ai-textanalytics>=5.3
+nltk>=3.8
+scikit-learn>=1.3
+gradio>=4.0

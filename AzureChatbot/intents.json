@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "hey there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you later",
+        "I am leaving"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that helps",
+        "appreciate it",
+        "thanks a lot",
+        "thx",
+        "thank you very much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "I forgot my password",
+        "reset my password",
+        "cannot log in",
+        "locked out of my account",
+        "change password",
+        "can you reset my password",
+        "reset password",
+        "forgot password"
+      ],
+      "responses": [
+        "You can reset your password at the self-service portal, or call the help desk."
+      ]
+    },
+    {
+      "tag": "wifi_help",
+      "patterns": [
+        "wifi is not working",
+        "cannot connect to wifi",
+        "internet is slow",
+        "how do I connect to the network",
+        "no internet",
+        "wifi",
+        "wifi problem",
+        "my wifi keeps dropping"
+      ],
+      "responses": [
+        "Connect to the campus network with your student ID and password. If it still fails, forget the network and reconnect."
+      ]
+    },
+    {
+      "tag": "library_hours",
+      "patterns": [
+        "when is the library open",
+        "library hours",
+        "is the library open on weekends",
+        "what time does the library close"
+      ],
+      "responses": [
+        "The library is open 8 AM to 10 PM on weekdays and 10 AM to 6 PM on weekends."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "how do I contact support",
+        "help desk phone number",
+        "talk to a human",
+        "email support",
+        "I need an agent",
+        "speak to a person",
+        "talk to someone"
+      ],
+      "responses": [
+        "You can reach the help desk at helpdesk@example.edu or 555-0100."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "help",
+        "what can you do",
+        "what are your capabilities",
+        "list your features",
+        "show me the menu",
+        "what can I ask you",
+        "how can you help me"
+      ],
+      "responses": [
+        "__CAPABILITIES__"
+      ]
+    }
+  ]
+}
