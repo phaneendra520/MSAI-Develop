@@ -1,0 +1,6 @@
+{
+  "train_ratings": 977708,
+  "test_ratings": 22501,
+  "catalog": 3702,
+  "seconds": 118.4
+}
